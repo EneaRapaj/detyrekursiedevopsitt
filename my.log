@@ -1,0 +1,15 @@
+2024-01-23 15:27:06.056  INFO 10100 --- [main] RandomNumberGenerator.Application        : Starting Application on DESKTOP-LCGDE92 with PID 10100 (C:\Users\User\Desktop\java\Random-Number-Generator-master\RandomGenerator\target\classes started by User in C:\Users\User\Desktop\java\Random-Number-Generator-master\RandomGenerator)
+2024-01-23 15:27:06.065  INFO 10100 --- [main] RandomNumberGenerator.Application        : No active profile set, falling back to default profiles: default
+2024-01-23 15:27:10.112  INFO 10100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-01-23 15:27:10.258  INFO 10100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-23 15:27:10.276  INFO 10100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2024-01-23 15:27:11.097  INFO 10100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-23 15:27:11.100  INFO 10100 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4929 ms
+2024-01-23 15:27:12.171  INFO 10100 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-23 15:27:13.458  INFO 10100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-23 15:27:13.468  INFO 10100 --- [main] RandomNumberGenerator.Application        : Started Application in 8.547 seconds (JVM running for 9.912)
+2024-01-23 15:27:22.451  INFO 10100 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-23 15:27:22.453  INFO 10100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-23 15:27:22.472  INFO 10100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2024-01-23 15:27:22.574  INFO 10100 --- [http-nio-8080-exec-1] RandomNumberGenerator.Controller         : loging finding randomnumber
+2024-01-23 15:28:00.487  INFO 10100 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: detyrekursi-deployment
+  labels:
+    app: detyrekursi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: detyrekursi
+  template:
+    metadata:
+      labels:
+        app: detyrekursi
+    spec:
+      containers:
+      - name: detyrekursi
+        image: enearapaj/detyrekursidevopsi
+        ports:
+        - containerPort: 80
